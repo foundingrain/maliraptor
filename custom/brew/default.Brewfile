@@ -4,4 +4,3 @@
 brew "neovim"
 brew "yazi"
 brew "btop"
-brew "kitty"
