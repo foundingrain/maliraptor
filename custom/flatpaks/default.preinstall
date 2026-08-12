@@ -8,8 +8,8 @@
 ;[Flatpak Preinstall org.mozilla.firefox]
 ;Branch=stable
 
-;[Flatpak Preinstall org.mozilla.Thunderbird]
-;Branch=stable
+# ;[Flatpak Preinstall org.mozilla.Thunderbird]
+# ;Branch=stable
 
 ;[Flatpak Preinstall org.gnome.Calculator]
 ;Branch=stable
