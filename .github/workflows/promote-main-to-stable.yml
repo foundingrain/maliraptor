@@ -32,6 +32,9 @@ jobs:
   promote:
     name: Promote main to stable
     uses: projectbluefin/actions/.github/workflows/reusable-promote-squash.yml@8906e13e3ac1654504e75ad27440bffb28e52fbc # v1
+    permissions:
+      packages: read
+      contents: read
     with:
       variants: >-
         [{"image":"${{ github.event.repository.name }}"}]
