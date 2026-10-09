@@ -31,7 +31,7 @@ concurrency:
 jobs:
   promote:
     name: Promote main to stable
-    uses: projectbluefin/actions/.github/workflows/reusable-promote-squash.yml@44f126717d9c45856fbcff368eb87ce0f26773d3 # v1
+    uses: projectbluefin/actions/.github/workflows/reusable-promote-squash.yml@f55c40caae7abf265b1f914dae21c519d1f18716 # v1
     permissions:
       packages: read
       contents: write
